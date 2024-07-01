@@ -1,0 +1,14 @@
+C:\Users\artur\source\repos\Petshop\obj\Debug\net8.0\Petshop.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\artur\source\repos\Petshop\obj\Debug\net8.0\Petshop.AssemblyInfoInputs.cache
+C:\Users\artur\source\repos\Petshop\obj\Debug\net8.0\Petshop.AssemblyInfo.cs
+C:\Users\artur\source\repos\Petshop\obj\Debug\net8.0\Petshop.csproj.CoreCompileInputs.cache
+C:\Users\artur\source\repos\Petshop\bin\Debug\net8.0\Petshop.exe
+C:\Users\artur\source\repos\Petshop\bin\Debug\net8.0\Petshop.deps.json
+C:\Users\artur\source\repos\Petshop\bin\Debug\net8.0\Petshop.runtimeconfig.json
+C:\Users\artur\source\repos\Petshop\bin\Debug\net8.0\Petshop.dll
+C:\Users\artur\source\repos\Petshop\bin\Debug\net8.0\Petshop.pdb
+C:\Users\artur\source\repos\Petshop\obj\Debug\net8.0\Petshop.dll
+C:\Users\artur\source\repos\Petshop\obj\Debug\net8.0\refint\Petshop.dll
+C:\Users\artur\source\repos\Petshop\obj\Debug\net8.0\Petshop.pdb
+C:\Users\artur\source\repos\Petshop\obj\Debug\net8.0\Petshop.genruntimeconfig.cache
+C:\Users\artur\source\repos\Petshop\obj\Debug\net8.0\ref\Petshop.dll
