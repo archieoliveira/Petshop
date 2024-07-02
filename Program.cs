@@ -27,14 +27,14 @@ namespace Petshop
 
                     else
                     {
-                        Console.WriteLine("Enter only values between 0kg and 50kg");
+                        Console.WriteLine("Enter only values between 0.1kg and 50kg");
                         Console.WriteLine();
                     }
                 }
 
                 catch (Exception ex)
                 {
-                    Console.WriteLine("Enter only numbers between 1 and 50");
+                    Console.WriteLine("Enter only numbers between 0.1kg and 50kg");
                 }
             } while (true);
 
