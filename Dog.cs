@@ -1,5 +1,7 @@
 ﻿using System;
+using System.Dynamic;
 using System.Globalization;
+using System.Runtime.CompilerServices;
 
 namespace Petshop
 {
@@ -60,7 +62,7 @@ namespace Petshop
                 multiplier = 2.0;
             }
 
-            finalValue = (baseValue * multiplier) + ExtraValue;
+            finalValue = baseValue * multiplier + ExtraValue;
 
             return finalValue;
         }

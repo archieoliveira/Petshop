@@ -12,3 +12,4 @@ C:\Users\artur\source\repos\Petshop\obj\Debug\net8.0\refint\Petshop.dll
 C:\Users\artur\source\repos\Petshop\obj\Debug\net8.0\Petshop.pdb
 C:\Users\artur\source\repos\Petshop\obj\Debug\net8.0\Petshop.genruntimeconfig.cache
 C:\Users\artur\source\repos\Petshop\obj\Debug\net8.0\ref\Petshop.dll
+C:\Users\artur\source\repos\Petshop\obj\Debug\net8.0\Petshop.sourcelink.json

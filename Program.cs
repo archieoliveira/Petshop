@@ -2,6 +2,7 @@
 using System.ComponentModel.Design;
 using System.Globalization;
 
+
 namespace Petshop
 {
     class Program
@@ -11,22 +12,32 @@ namespace Petshop
             Dog dog1 = new Dog();
 
             Console.WriteLine("------------------ Define the dog's weight ------------------");
+
             do
             {
-                Console.Write(">> ");
-                dog1.Weight = double.Parse(Console.ReadLine());
-
-                if (dog1.Weight > 0 && dog1.Weight <= 50)
+                try
                 {
-                    break;
+                    Console.Write(">> ");
+                    dog1.Weight = double.Parse(Console.ReadLine());
+
+                    if (dog1.Weight > 0 && dog1.Weight <= 50)
+                    {
+                        break;
+                    }
+
+                    else
+                    {
+                        Console.WriteLine("Enter only values between 0kg and 50kg");
+                        Console.WriteLine();
+                    }
                 }
 
-                else
+                catch (Exception ex)
                 {
-                    Console.WriteLine("It's only accepted weights between 0kg and 50kg");
-                    Console.WriteLine();
+                    Console.WriteLine("Enter only numbers between 1 and 50");
                 }
             } while (true);
+
 
 
             Console.WriteLine("------------------- Define the fur length -------------------");
@@ -43,7 +54,7 @@ namespace Petshop
 
                 else
                 {
-                    Console.WriteLine("Entry only the valid options: S/M/L");
+                    Console.WriteLine("Enter only the valid options: S/M/L");
                     Console.WriteLine();
                 }
             } while (true);
@@ -51,15 +62,16 @@ namespace Petshop
             Console.WriteLine("------------------ Choose extra services ------------------");
             Console.WriteLine("Enter the option (1) to cut the nails - R$10.00");
             Console.WriteLine("Enter the option (2) to brush the teeth - R$12.00");
-            Console.WriteLine("Enter the option (3) to clean the dog ear - R$15.00");
-            Console.WriteLine("Enter the option (0) if you do not want an additional service");
+            Console.WriteLine("Enter the option (3) to clean the dog's ears - R$15.00");
+            Console.WriteLine("Enter the option (0) if you don't want any additional services");
 
             string extra;
             do
             {
                 Console.Write(">> ");
                 extra = Console.ReadLine();
-
+            
+               
                 switch (extra)
                 {
                     case "1":
@@ -70,6 +82,11 @@ namespace Petshop
                         break;
                     case "3":
                         dog1.ExtraValue += 15.00;
+                        break;
+                    case "0":
+                        break;
+                    default:
+                        Console.WriteLine("Enter only the valid options: (0) - (1) - (2) - (3)");
                         break;
                 }
             } while (extra != "0");
