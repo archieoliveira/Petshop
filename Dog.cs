@@ -49,11 +49,11 @@ namespace Petshop
                 baseValue = 70.00;
             }
 
-            if (Fur == "s" || Fur == "S")
+            if (Fur == "S")
             {
                 multiplier = 1.0;
             }
-            else if (Fur == "m" || Fur == "M")
+            else if (Fur == "M")
             {
                 multiplier = 1.5;
             }
